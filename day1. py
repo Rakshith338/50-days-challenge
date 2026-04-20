@@ -18,4 +18,4 @@ b = input("enter a value: " )
 print(a)
 print (b)
 c = int ( a) + int( b)
-print(f"total value: {a} + {b} = {c}" )
+print(f"total value: {a} + {b} = {c}" ) #formating variable in string
