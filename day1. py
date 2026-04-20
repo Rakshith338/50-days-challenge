@@ -12,3 +12,10 @@ a =10
 b = 20
 c =a + b 
 print (f"add two value {c}" )
+
+a = input("enter a value: " )
+b = input("enter a value: " )
+print(a)
+print (b)
+c = int ( a) + int( b)
+print(f"total value: {a} + {b} = {c}" )
