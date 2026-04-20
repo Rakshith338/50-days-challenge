@@ -19,3 +19,12 @@ print(a)
 print (b)
 c = int ( a) + int( b)
 print(f"total value: {a} + {b} = {c}" ) #formating variable in string
+
+def add(c1): #using function
+    print(c1)
+    
+a = input("enter a value: " )
+b = input("enter a value: " )
+c = int ( a) + int( b)
+   
+add(c) 
