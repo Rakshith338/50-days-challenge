@@ -30,3 +30,13 @@ print (f"substraction:{x-y}")
 print (f"multiplication:{x*y}")
 print (f"division: {x/y}")
 print (f"modulus: {x%y}")
+
+#start if condition
+#odd and even numbers
+
+x = 5
+
+if x % 2 == 0:
+    print ("x is even number")
+elif x % 2 != 0:
+    print ("x is odd number")
