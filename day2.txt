@@ -1,0 +1,11 @@
+day2 python practice
+
+python -m idlelib day2.py
+
+git add day2.txt
+git commit -m "Added Day 2 notes"
+git push origin main
+
+rm day3.txt
+
+
