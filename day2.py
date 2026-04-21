@@ -40,3 +40,37 @@ if x % 2 == 0:
     print ("x is even number")
 elif x % 2 != 0:
     print ("x is odd number")
+
+#build calculator
+#using input,variable, operators & if conditions
+
+a = int(input("enter the first value: "))
+b = int(input("enter the second value: "))
+
+print("selection:")
+print("1.addition:")
+print("2.substraction:")
+print("3.multiply:")
+print("4.division:")
+
+choice = input("select choice(1/2/3/4):")
+
+if choice == "1":
+    print(f"Result:{a+b}")
+
+elif choice == "2":
+    print(f"Result:{a-b}")
+
+elif choice == "3":
+    print(f"Result:{a*b}")
+
+elif choice == "4":
+    print(f"Result:{a/b}")
+
+else:
+    print ("invalid choice")
+
+
+
+
+
