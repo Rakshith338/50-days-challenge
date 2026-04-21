@@ -70,6 +70,32 @@ elif choice == "4":
 else:
     print ("invalid choice")
 
+"""
+output
+10 5.5 rakshi
+enter first number: 4
+enter second number: 4
+4 4
+8
+enter the x value:4
+enter the y value:4
+additon: 8
+substraction:0
+multiplication:16
+division: 1.0
+modulus: 0
+x is odd number
+enter the first value: 4
+enter the second value: 4
+selection:
+1.addition:
+2.substraction:
+3.multiply:
+4.division:
+select choice(1/2/3/4):2
+Result:0
+"""
+
 
 
 
