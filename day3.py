@@ -71,7 +71,7 @@ elif b > c and b > a:
         print (f"{b} is largest number")
 elif c > a and c > b:
         print (f"{c} is largest number")
-else:
+else:                                     #Note:no coditions provided for else
         print ("invalid")
         
 """
@@ -80,4 +80,134 @@ enter the second number: 26
 enter the third number: 28
 28 is largest number
 """
+
+#Mini project(important)
+# Project name: Number Guessing name"
+
+"""
+What is a module?
+
+A module = a file that contains Python code (functions, variables, etc.)
+
+Examples:
+
+random → random numbers
+math → mathematical functions
+datetime → date & time
+"""
+
+import random
+
+print(random.randint(1, 6))   # like rolling a dice 🎲import random
+
+
+import random                          # random number by computer (import is used to bring code from another module (file/library) into your program.)
+number = random.randint(1,10)            # list of 1 to 10
+guess = int(input("enter your guess(1-10): "))
+
+print("computer number:", number)
+
+if guess > number:
+        print("too high")
+
+elif guess < number:
+        print ("too low")
+
+elif guess == number:
+        print ("correct")
+
+else:
+        print ("invalid")
+
+"""
+enter your guess(1-10): 8
+computer number: 5
+too high
+"""
+
+import random                          # random number by computer (import is used to bring code from another module (file/library) into your program.)
+number = random.randint(1,10)            # list of 1 to 10
+guess1 = int(input("enter your guess(1-10): "))
+
+if guess1 > number:
+        print("too high")
+
+elif guess1 < number:
+        print ("too low")
+
+elif guess1 == number:
+        print ("correct")
+
+guess2 = int(input("enter your guess(1-10): "))
+
+if guess2 > number:
+        print("too high")
+
+elif guess2 < number:
+        print ("too low")
+
+elif guess2 == number:
+        print ("correct")
+
+guess3 = int(input("enter your guess(1-10): "))
+print("computer number:", number)
+
+
+if guess3 > number:
+        print("too high")
+
+elif guess3 < number:
+        print ("too low")
+
+elif guess3 == number:
+        print ("correct")
+
+elif guess1 and guess2 and guess3 != number:
+        print ("game over")
+
+
+import random                          # random number by computer (import is used to bring code from another module (file/library) into your program.)
+number = random.randint(1,10)            # list of 1 to 10
+guess1 = int(input("enter your guess(1-10): "))
+guess2 = int(input("enter your guess(1-10): "))
+guess3 = int(input("enter your guess(1-10): "))
+print("computer number:", number)
+
+if (guess1) and (guess2) and (guess3 == number):
+        print("correct")
+
+elif (guess1) and (guess2) and (guess3 != number):
+        print ("game over")
+
+import random                          # random number by computer (import is used to bring code from another module (file/library) into your program.)
+number = random.randint(1,10)            # list of 1 to 10
+guess1 = int(input("enter your guess(1-10): "))
+guess2 = int(input("enter your guess(1-10): "))
+guess3 = int(input("enter your guess(1-10): "))
+print("computer number:", number)
+
+if guess1 == number or guess2 == number or guess3 == number:
+        print("correct")
+
+else:
+        print ("game over(3 attempt used")
+
+
+#it is nice i will try on day4.py
+
+import random
+
+number = random.randint(1, 10)
+
+for i in range(3):
+    guess = int(input("Enter your guess (1-10): "))
+
+    if guess == number:
+        print("Correct!")
+        break
+else:
+    print("Game Over! Number was:", number)
+
+
+
 
