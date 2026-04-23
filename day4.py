@@ -46,3 +46,50 @@ for i in x:
 
 fun(total)
 
+"""
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+2
+4
+6
+8
+10
+1 2 3 4 5 6 7 8 9 10 
+2 4 6 8 10 
+100
+10
+30
+60
+100
+100
+"""
+
+#task3 : largest number in list
+
+def fun(num):
+    print (num)
+
+number = [20, 25, 30]
+fun(number)
+
+num = number[0]
+for i in number:
+    if i > num:
+        num = i
+
+print(f"Largest: {num}")
+
+"""
+[20, 25, 30]
+Largest: 30
+"""
+
+
