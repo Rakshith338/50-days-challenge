@@ -92,4 +92,15 @@ print(f"Largest: {num}")
 Largest: 30
 """
 
+#build student marks analyser
+
+student = input("enter the name: ")
+a = int(input("enter marks: "))
+
+if a >90:
+    print("too high")
+elif a <35:
+    print("too low") 
+elif a >35:
+    print("average")
 
