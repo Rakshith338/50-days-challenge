@@ -1,4 +1,4 @@
-#task1 : print number using loop
+9#task1 : print number using loop
 
 for x in range(1,11):
     print (x)
@@ -104,3 +104,19 @@ elif a <35:
 elif a >35:
     print("average")
 
+Marks = [45,60,75,90,85,66]
+total = sum(Marks)
+average = total / len(Marks)
+print (f"total marks: {total}" )
+print (f"average: {average}" )
+
+highest_mark = Marks[0]
+lowest_mark = Marks[0]
+for i in Marks:
+    if i > highest_mark:
+        highest_mark = i
+    elif i < lowest_mark:
+        lowest_mark = i
+print(f"highest_mark: {highest_mark}" )
+print(f"lowest_mark : {lowest_mark}" )
+    
