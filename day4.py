@@ -119,4 +119,11 @@ for i in Marks:
         lowest_mark = i
 print(f"highest_mark: {highest_mark}" )
 print(f"lowest_mark : {lowest_mark}" )
+
+""" 
+total marks: 421
+average: 70.16666666666667
+highest_mark: 90
+lowest_mark : 45
+"""
     
