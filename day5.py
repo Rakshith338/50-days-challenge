@@ -3,24 +3,18 @@
 #vowels:2
 
 
-def fun(vowels):
-    print()
-
-name = input("enter name: ")
-vowels = ["a","e","i","o","u"]
-
-vowels = vowels[0]
-for vowels in name:
-    name = len(vowels)
-    vowels = name
-    print(vowels)
-    
-fun(vowels)
+# ch → each character in string
+# ch.lower() → makes comparison case-insensitive
 
 
-name = input("enter name: ")
+x = input("enter the name: " )
+vowel = ['a', 'e', 'i', 'o', 'u']
 
-i = i[0]
-for i in name:
-    i = ['a', 'e','i', 'o','u']
-    print(name)
+count = 0
+
+for ch in x:
+    if ch.lower() in vowel:
+        count += 1
+        print(f"vowel:{ch}")
+        
+print(f"total: {count}")
