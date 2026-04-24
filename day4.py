@@ -1,4 +1,4 @@
-#task1 : print number using loop
+9#task1 : print number using loop
 
 for x in range(1,11):
     print (x)
@@ -92,4 +92,38 @@ print(f"Largest: {num}")
 Largest: 30
 """
 
+#build student marks analyser
 
+student = input("enter the name: ")
+a = int(input("enter marks: "))
+
+if a >90:
+    print("too high")
+elif a <35:
+    print("too low") 
+elif a >35:
+    print("average")
+
+Marks = [45,60,75,90,85,66]
+total = sum(Marks)
+average = total / len(Marks)
+print (f"total marks: {total}" )
+print (f"average: {average}" )
+
+highest_mark = Marks[0]
+lowest_mark = Marks[0]
+for i in Marks:
+    if i > highest_mark:
+        highest_mark = i
+    elif i < lowest_mark:
+        lowest_mark = i
+print(f"highest_mark: {highest_mark}" )
+print(f"lowest_mark : {lowest_mark}" )
+
+""" 
+total marks: 421
+average: 70.16666666666667
+highest_mark: 90
+lowest_mark : 45
+"""
+    
