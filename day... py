@@ -1,3 +1,5 @@
+
+# each char count
 a = "standard"
 
 count = {}
@@ -9,3 +11,15 @@ for char in a:
         count[char] = 1
 
 print(count)
+
+
+#total char count
+
+a = "standard"
+
+total = 0
+
+for char in a:
+    total = total + 1 #total += 1
+    
+print(total)
