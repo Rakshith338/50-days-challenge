@@ -1,0 +1,11 @@
+def main():
+    a = input('enter the name:')
+
+    total = ""
+
+    for x in a:
+        total = x + total 
+    
+    print(total)
+     
+main()
