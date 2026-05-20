@@ -45,3 +45,14 @@ def main():
 
 print(main())
 
+
+def count_letter(a):
+    count = {}
+    
+    for char in a:
+        count[char] = count.get(char,0) + 1
+        
+    print(count)
+    
+a = "chocolate"
+count_letter(a/⁰
