@@ -9,3 +9,39 @@ def main():
     print(total)
      
 main()
+
+input : egg
+output: gge
+
+
+def main():
+    a = input('enter the name:')
+
+    total = ""
+
+    for x in a:
+        total = x + total 
+        print(total)
+     
+main()
+
+
+###
+output : 
+enter the name:egg
+e
+ge
+gge. 
+###
+
+def main():
+    a = input('enter the name: ')
+    total = ""
+
+    for x in a:
+        total = x + total
+
+    return total
+
+print(main())
+
