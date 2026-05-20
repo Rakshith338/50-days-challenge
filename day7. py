@@ -55,4 +55,18 @@ def count_letter(a):
     print(count)
     
 a = "chocolate"
-count_letter(a/⁰
+count_letter(a)
+
+def count_letter(a):
+    count = {}
+    
+    for char in a:
+        count[char] = count.get(char,0) + 1
+        
+    for char, value in count.items():
+        print(char, "*" * value)
+    
+a = "chocolate"
+count_letter(a)
+j
+
