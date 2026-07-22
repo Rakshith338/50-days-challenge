@@ -96,6 +96,11 @@ select choice(1/2/3/4):2
 Result:0
 """
 
+import sys
+
+print(sys.argv)
+
+
 
 
 
