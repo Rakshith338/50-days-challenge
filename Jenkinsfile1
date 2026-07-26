@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Enter the Repo') {
+            steps {
+                git branch: 'main',
+                    credentialsId: '63aa5507-7c81-4242-898f-459afae51c5f',
+                    url: 'https://github.com/Rakshith338/50-days-challenge.git'
+            }
+        }
+
+        stage('List Workspace Files') {
+            steps {
+                bat 'dir'
+            }
+        }
+
+        stage('Run Python') {
+            steps {
+                bat 'python day2.py'
+            }
+        }
+    }
+}
