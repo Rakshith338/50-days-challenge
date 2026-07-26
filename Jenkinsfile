@@ -11,7 +11,7 @@ pipeline {
 		}
 		stage(list workspace files) {
 			steps{
-				sh 'ls -ls'
+				sh 'ls -la'
 			}
 		}
 		stage('Run python') {
