@@ -1,2 +1,17 @@
+cd foldername	Move into folder
+git checkout branchname	Switch branch
+git branch	Show branch
 wow
 Python Day 1 practice
+bash commands:
+git rm day1.py
+git rm day2.py
+git rm day3.py
+git rm day4.py
+git rm day1.txt
+git rm day2.txt
+git rm day3.txt
+git rm day5.py
+git commit -m "Keep only restart_day1.py"
+git push origin restart_50days_challenge
+
