@@ -7,12 +7,12 @@ print(a,b,name) #built in function
 
 #input to variables
 
-a = input("enter first number: ") #input as string
-b = input ("enter second number: ")
+a = 5 # input("enter first number: ") #input as string
+b = 6 #input ("enter second number: ")
 print (a,b)
 
-a = int(a)
-b = int(b)    
+a = int(5)
+b = int(8)    
 c = a +b      # add operator
 print (c)
 
@@ -20,8 +20,8 @@ print (c)
 #using input & operation
 #using formating strng output
 
-x = input("enter the x value:")
-y = input("enter the y value:")
+x = 12 #input("enter the x value:")
+y = 14 #input("enter the y value:")
 x = int(x)
 y = int(y)
 
@@ -44,8 +44,9 @@ elif x % 2 != 0:
 #build calculator
 #using input,variable, operators & if conditions
 
-a = int(input("enter the first value: "))
-b = int(input("enter the second value: "))
+"""
+a = 21 #int(input("enter the first value: "))
+b = 23 # int(input("enter the second value: "))
 
 print("selection:")
 print("1.addition:")
@@ -70,7 +71,6 @@ elif choice == "4":
 else:
     print ("invalid choice")
 
-"""
 output
 10 5.5 rakshi
 enter first number: 4
@@ -94,14 +94,14 @@ selection:
 4.division:
 select choice(1/2/3/4):2
 Result:0
-"""
+
 
 import sys
 
 print(sys.argv)
 
 
-
+"""
 
 
 
