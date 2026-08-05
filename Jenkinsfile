@@ -1,23 +1,24 @@
 pipeline {
-	agent any
-		
-	stages{
-		stage('enter the repo'){
-			steps{
-				git branch:'main',
-					credentialsId: '63aa5507-7c81-4242-898f-459afae51c5f'
-					url: 'https://github.com/Rakshith338/50-days-challenge.git'
-			}
-		}
-		stage('list workspace files') {
-			steps{
-				sh 'ls -la'
-			}
-		}
-		stage('Run python') {
-			steps{
-				sh 'python3 day2.py'
-			}
-		}
-	}
+    agent any
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/Rakshith338/50-days-challenge.git'
+            }
+        }
+
+        stage('List Workspace Files') {
+            steps {
+                sh 'ls -la'
+            }
+        }
+
+        stage('Run Python') {
+            steps {
+                sh 'python3 day2.py'
+            }
+        }
+    }
 }
